@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gabriel's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">GabesTech</div>
+            <div class="menu-btn" id="menu-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#" id="contact-link">Book Appointment</a></li>
+            </ul>
+        </nav>
+
+<div class="profile-picture-container">
+    <img src="images/90.jpg" alt="Profile Picture" class="profile-picture">
+</div>
+        <div class="hero">
+            <h1>Hi, I'm Gabriel</h1>
+            <p>Cybersecurity Advisor | Frontend Developer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+   <section id="about">
+    <div class="content-container">
+        <h2>About Me</h2>
+        <p>I am passionate about cybersecurity and development. Let’s work together to build a safer digital world.</p>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="content-container">
+        <h2>Skills</h2>
+        <p>I bring a diverse set of technical skills to the table, including:</p>
+    </div>
+    <div class="content-container">
+        <h3>Programming Languages</h3>
+        <p>Proficient in Python, JavaScript, and PHP, enabling versatile development across various platforms.</p>
+    </div>
+    <div class="content-container">
+        <h3>Frameworks and Tools</h3>
+        <p>Experienced with React, Django, and Nginx, which enhance my ability to build robust and scalable applications.</p>
+    </div>
+    <div class="content-container">
+        <h3>Cybersecurity</h3>
+        <p>Skilled in ethical hacking, vulnerability assessment, and firewall management, ensuring the security and integrity of digital systems.</p>
+    </div>
+    <div class="content-container">
+        <p>This expertise allows me to tackle a wide range of projects and deliver solutions that meet industry standards and client requirements.</p>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="content-container">
+        <h2>Projects</h2>
+        <p>Below are some notable cybersecurity projects that showcase my expertise in ethical hacking, vulnerability assessments, and more.</p>
+    </div>
+
+    <div class="projects-grid">
+        <div class="project-card">
+            <h3>Vulnerability Assessment Tool</h3>
+            <p>Developed a tool to scan and assess vulnerabilities in web applications, helping organizations strengthen their security posture.</p>
+            <a href="https://github.com/yourusername/vulnerability-tool" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Firewall Management System</h3>
+            <p>Built a robust firewall management system from scratch, focusing on packet filtering, monitoring, and threat detection capabilities.</p>
+            <a href="https://github.com/yourusername/firewall-management" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Penetration Testing Framework</h3>
+            <p>Created a framework for automating penetration testing workflows, allowing security professionals to efficiently test network defenses.</p>
+            <a href="https://github.com/yourusername/pen-testing-framework" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Network Intrusion Detection System</h3>
+            <p>Designed and implemented an IDS to detect malicious network activity, enhancing threat response and mitigation strategies.</p>
+            <a href="https://github.com/yourusername/network-ids" target="_blank">View Project</a>
+        </div>
+    </div>
+</section>
+
+
+<section id="services">
+    <div class="content-container">
+        <h2>Services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Cybersecurity Consulting</h3>
+                <p>Providing tailored advice and solutions to enhance the security posture of organizations.</p>
+            </div>
+            <div class="service-item">
+                <h3>Ethical Hacking</h3>
+                <p>Performing penetration tests to identify and mitigate vulnerabilities in networks and systems.</p>
+            </div>
+            <div class="service-item">
+                <h3>Web Development</h3>
+                <p>Developing responsive and secure websites that meet client needs.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <div class="content-container">
+        <h2>Testimonials</h2>
+        <div class="testimonial-list">
+            <div class="testimonial-item">
+                <p>"Gabriel helped us identify security loopholes and saved us from potential threats. Highly recommended!"</p>
+                <h4>- Albert Einstine</h4>
+            </div>
+            <div class="testimonial-item">
+                <p>"The web development work done by Gabriel was exceptional. Delivered on time and exceeded expectations."</p>
+                <h4>- Nora Clark</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="resume">
+    <div class="content-container">
+        <h2>Resume</h2>
+        <p>Download my resume to see a full history of my experience and skills.</p>
+        <a href="/resume/Gabriel cv.pdf" class="btn" download>Download Resume</a>
+    </div>
+</section>
+
+<section id="certifications">
+    <div class="content-container">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Certified Ethical Hacker (CEH)</li>
+            <li>Certified Information Systems Security Professional (CISSP)</li>
+            <li>CompTIA Security+</li>
+            <li>Certified Cloud Security Professional (CCSP)</li>
+        </ul>
+    </div>
+</section>
+            <!-- Grid Item 2: Slideshow -->
+            <div class="grid-item slideshow-item">
+                <div class="slideshow">
+                    <img class="slide" src="images/Priest.jpg" alt="Slide 1">
+                    <img class="slide" src="images/.jpg" alt="Slide 2">
+                    <img class="slide" src="images/Priest.jpg" alt="Slide 3">
+                </div>
+            </div>
+
+ <section id="education-work">
+    <!-- Education Section -->
+    <div class="education-item">
+        <h3>Education</h3>
+        <p><strong>University of Professional Studies</strong></p>
+        <p>2018 - 2022</p>
+    </div>
+
+    <!-- Work Section -->
+    <div class="work-item">
+        <h3>Work</h3>
+        <p><strong>Legal Aid Commission</strong></p>
+        <p>Accra - Ghana</p>
+        <p>2022 - 2023</p>
+
+        <p><strong>Supreme Court</strong></p>
+        <p>2024 To Date</p>
+
+
+        <p><strong>Modpay Systems</strong></p>
+        <p>2024 To Date</p>
+    </div>
+</section>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Sign Up Form -->
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Sign Up</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+<section id="news-blog">
+    <h2>Latest News</h2>
+    <div id="news-container"></div>
+</section>
+
+ 
+    <footer>
+ <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p><strong>Phone:</strong> +233 536 668 727</p>
+                <p><strong>Email:</strong> <a href="mailto:mantey.gabriel67@gmail.com">mantey.gabriel67@gmail.com</a></p>
+            </div>
+        </section>
+
+ 
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+    <!-- Shield Background -->
+    <path d="M75 10 L135 50 L135 110 L75 140 L15 110 L15 50 Z" fill="#003d47" stroke="#005f73" stroke-width="4"/>
+    
+    <!-- Padlock Icon -->
+    <rect x="55" y="60" width="40" height="50" fill="#fff" stroke="#003d47" stroke-width="3"/>
+    <circle cx="75" cy="50" r="10" fill="#fff" stroke="#003d47" stroke-width="3"/>
+    
+    <!-- Text -->
+    <text x="50%" y="140" font-size="14" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-weight="bold">GabesTech</text>
+</svg>
+
+
+
+        <p>&copy; 2024 Gabriel's Portfolio</p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icon linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/yourusername" target="_blank" class="social-icon github" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/yourusername" target="_blank" class="social-icon twitter" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yourusername" target="_blank" class="social-icon instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Back to Top Button -->
+    <a href="#resume" class="back-to-top" id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+<script src="script.js" defer></script>
+</body>
+</html>
+</body>
+</html>
